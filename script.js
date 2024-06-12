@@ -11,10 +11,10 @@ const textoIniciarPausar = document.querySelector('#start-pause span');
 const iconoIniciarPausar = document.querySelector(".app__card-primary-butto-icon");
 const tiempoEnPantalla = document.querySelector('#timer');
 
-const musica = new Audio('./sonidos/luna-rise-part-one.mp3');
-const audioPlay = new Audio('./sonidos/play.wav');
-const audioPausa = new Audio('./sonidos/pause.mp3');
-const audioTiempoFinalizado = new Audio('./sonidos/beep.mp3');
+const musica = new Audio('sonidos/luna-rise-part-one.mp3');
+const audioPlay = new Audio('sonidos/play.wav');
+const audioPausa = new Audio('sonidos/pause.mp3');
+const audioTiempoFinalizado = new Audio('sonidos/beep.mp3');
 
 let tiempoTranscurridoEnSegundos = 1500;
 let idIntervalo = null;
